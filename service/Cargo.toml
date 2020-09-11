@@ -1,8 +1,8 @@
 [package]
-name = "annunaki"
+name = "annunaki-service"
 version = "0.1.0"
 authors = ["Will Tokunaga <thrill.ssb@gmail.com>", "Izzy Swart <zenerboson@gmail.com>"]
 edition = "2018"
 
-[workspace]
-members = ["web", "web/client", "web/server", "service"]
+[dependencies]
+annunaki = { path = "../" }
